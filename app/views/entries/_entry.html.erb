@@ -1,0 +1,37 @@
+<div id="<%= dom_id entry %>">
+  <div class="columns mt-6 is-centered">
+    <div class="column is-one-third">
+      <nav class="panel is-link">
+        <p class="panel-heading">
+          <strong>Meal type:</strong>
+          <%= entry.meal_type %>
+        </p>
+
+        <div class="panel-block">
+          <p>
+            <strong>Calories:</strong>
+            <%= entry.calories %>
+          </p>
+        </div>
+        <div class="panel-block">
+          <p>
+            <strong>Proteins:</strong>
+            <%= entry.proteins %>
+          </p>
+        </div> 
+        <div class="panel-block">
+          <p>
+            <strong>Carbohydrates:</strong>
+            <%= entry.carbohydrates %>
+          </p>
+        </div> 
+        <div class="panel-block">
+          <p>
+            <strong>Fats:</strong>
+            <%= entry.fats %>
+          </p>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
